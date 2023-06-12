@@ -1,0 +1,14 @@
+.allBuildingsPage {
+    @include page;
+  
+    &__content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    & .#{$prefix}--data-table-container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
